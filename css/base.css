@@ -1,13 +1,13 @@
 
-body {
+* {
   font-family: 'EuclidCircularA';
 }
 
 @font-face {
   font-family: 'EuclidCircularA';
-  src: url('EuclidCircularA-Regular-WebS.woff2') format('woff2'),
-       url('EuclidCircularA-Regular-WebS.woff') format('woff'),
-       url('EuclidCircularA-Regular-WebS.ttf') format('truetype');
+  src: url('font/EuclidCircularA-Regular-WebS.woff2') format('woff2'),
+       url('font/EuclidCircularA-Regular-WebS.woff') format('woff'),
+       url('font/EuclidCircularA-Regular-WebS.ttf') format('truetype');
 }
 
 html {
