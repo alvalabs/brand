@@ -28,7 +28,7 @@
 a.manual-section-download,
 a.manual-section-download:hover {
 	position: relative;
-	color: #000;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -43,14 +43,14 @@ a.manual-section-download > span:after {
 	content: '';
 	position: absolute;
 	bottom: 0;
-	left: 20px;
+	left: 0px;
 	width: 0%;
-	border-bottom: 1px solid #2f3035;
+	border-bottom: 1px solid #333;
 	transition: 0.4s;
 }
 
 a.manual-section-download:hover > span:after {
-	width: 80%;
+	width: 100%;
 }
 
 .manual-section-paragraph-container {
@@ -136,6 +136,17 @@ a.manual-section-download:hover > span:after {
 	padding-bottom: 30px;
 	font-weight: normal;
 	font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+	.section-color-item {
+	color: #fff;
+	margin-right: -20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-weight: normal;
+	font-size: 10px;
+	}
 }
 
 @media (min-width: 768px) {
