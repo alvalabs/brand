@@ -5,9 +5,9 @@
 
 @font-face {
   font-family: 'EuclidCircularA';
-  src: url('font/EuclidCircularA-Regular-WebS.woff2') format('woff2'),
-       url('font/EuclidCircularA-Regular-WebS.woff') format('woff'),
-       url('font/EuclidCircularA-Regular-WebS.ttf') format('truetype');
+  src: url('font/EuclidCircularA-Regular-WebXL.woff2') format('woff2'),
+       url('font/EuclidCircularA-Regular-WebXL.woff') format('woff'),
+       url('font/EuclidCircularA-Regular-WebXL.ttf') format('truetype');
 }
 
 html {
