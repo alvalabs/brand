@@ -4,13 +4,10 @@
 }
 
 @font-face {
-  font-family: 'EuclidCircularA-Regular-WebS.woff';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'Euclid Circular A;';
+  src: url('font/EuclidCircularA-Regular-WebS.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/EuclidCircularA-Regular-WebS.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/EuclidCircularA-Regular-WebS.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 html {
