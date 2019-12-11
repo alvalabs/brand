@@ -1,13 +1,13 @@
 
-* {
-  font-family: Euclid Circular A;
+body {
+  font-family: 'EuclidCircularA';
 }
 
 @font-face {
-  font-family: 'Euclid Circular A;';
-  src: url('font/EuclidCircularA-Regular-WebS.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/EuclidCircularA-Regular-WebS.woff') format('woff'), /* Pretty Modern Browsers */
-       url('font/EuclidCircularA-Regular-WebS.ttf')  format('truetype'), /* Safari, Android, iOS */
+  font-family: 'EuclidCircularA';
+  src: url('EuclidCircularA-Regular-WebS.woff2') format('woff2'),
+       url('EuclidCircularA-Regular-WebS.woff') format('woff'),
+       url('EuclidCircularA-Regular-WebS.ttf') format('truetype');
 }
 
 html {
